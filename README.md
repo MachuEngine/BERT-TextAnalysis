@@ -8,6 +8,7 @@
 #### IMDB 데이터셋
 
 구조: 
+```
 DatasetDict({
     train: Dataset({
         features: ['text', 'label'],
@@ -22,6 +23,7 @@ DatasetDict({
         num_rows: 50000
     })
 })
+```
 
 ---
 
