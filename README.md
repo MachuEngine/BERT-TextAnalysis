@@ -3,6 +3,7 @@
 2. Fill masking
 3. fine-tuning
 
+세부 내용: https://velog.io/@machu8/posts
 ---
 
 #### Sentiment analysis
