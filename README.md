@@ -5,6 +5,26 @@
 
 ---
 
+#### IMDB 데이터셋
+
+구조: 
+DatasetDict({
+    train: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    test: Dataset({
+        features: ['text', 'label'],
+        num_rows: 25000
+    })
+    unsupervised: Dataset({
+        features: ['text', 'label'],
+        num_rows: 50000
+    })
+})
+
+---
+
 #### Sentiment analysis
 사전 학습 모델: `nlptown/bert-base-multilingual-uncased-sentiment` 모델 사용
 
