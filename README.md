@@ -3,6 +3,8 @@
 2. Fill masking
 3. fine-tuning
 
+---
+
 #### Sentiment analysis
 사전 학습 모델: `nlptown/bert-base-multilingual-uncased-sentiment` 모델 사용
 
@@ -29,6 +31,8 @@ def sentiment_pipeline():
         print(f"Text: {text}")
         print(f"Result: {result}\n")
 ```
+
+---
 
 #### Fill masking
 사전 학습 모델: bert-base-multilingual-cased 모델 사용
